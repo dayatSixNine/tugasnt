@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.minuman.minumanFragment">
+
+    <RelativeLayout
+        android:id="@+id/relan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="100dp"/>
+
+    <ImageView
+        android:id="@+id/fotoMn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/teh"/>
+
+    <TextView
+        android:id="@+id/textMn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="ES TEH MANIS"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_toEndOf="@+id/fotoMn"/>
+
+    <TextView
+        android:id="@+id/textKn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5K"
+        android:layout_toEndOf="@+id/fotoMn"
+        android:layout_below="@+id/textMn"/>
+
+    <ImageView
+        android:id="@+id/titik3n"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_more_horiz_24"
+        android:layout_alignParentEnd="true"
+        android:paddingTop="25dp"/>
+
+    <RelativeLayout
+        android:id="@+id/rela1n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="100dp"
+        android:layout_below="@+id/relan"/>
+
+    <ImageView
+        android:id="@+id/fotoM1n"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="10dp"
+        android:layout_below="@+id/relan"
+        android:src="@drawable/jasjys"/>
+
+    <TextView
+        android:id="@+id/textM1n"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="JUS BUAH"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_below="@+id/relan"
+        android:layout_toEndOf="@+id/fotoMn"/>
+
+    <TextView
+        android:id="@+id/textK1n"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10K"
+        android:layout_toEndOf="@+id/fotoM1n"
+        android:layout_below="@+id/textM1n"/>
+
+    <ImageView
+        android:id="@+id/titik31n"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_more_horiz_24"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/relan"
+        android:paddingTop="25dp"/>
+
+    <RelativeLayout
+        android:id="@+id/rela2n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="100dp"
+        android:layout_below="@+id/rela1n"/>
+
+    <ImageView
+        android:id="@+id/fotoM2n"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="10dp"
+        android:layout_below="@+id/rela1n"
+        android:src="@drawable/kopi"/>
+
+    <TextView
+        android:id="@+id/textM2n"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="KOPI"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_below="@+id/rela1n"
+        android:layout_toEndOf="@+id/fotoMn"/>
+
+    <TextView
+        android:id="@+id/textK2n"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5K"
+        android:layout_toEndOf="@+id/fotoM2n"
+        android:layout_below="@+id/textM2n"/>
+
+    <ImageView
+        android:id="@+id/titik32n"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_more_horiz_24"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/rela1n"
+        android:paddingTop="25dp"/>
+
+</RelativeLayout>

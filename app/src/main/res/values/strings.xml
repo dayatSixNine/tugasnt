@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Menu Pesan</string>
+    <string name="tab_text_1">makanan</string>
+    <string name="tab_text_2">minuman</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

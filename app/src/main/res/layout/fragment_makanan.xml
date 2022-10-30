@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.makanan.makananFragment">
+
+
+    <RelativeLayout
+        android:id="@+id/rela"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="100dp"/>
+
+        <ImageView
+            android:id="@+id/fotoM"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/satan"/>
+
+        <TextView
+            android:id="@+id/textM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="SATE AMBAL"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_toEndOf="@+id/fotoM"/>
+
+        <TextView
+            android:id="@+id/textK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25K"
+            android:layout_toEndOf="@+id/fotoM"
+            android:layout_below="@+id/textM"/>
+
+        <ImageView
+            android:id="@+id/titik3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_more_horiz_24"
+            android:layout_alignParentEnd="true"
+            android:paddingTop="25dp"/>
+
+    <RelativeLayout
+            android:id="@+id/rela1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="100dp"
+            android:layout_below="@+id/rela"/>
+
+        <ImageView
+            android:id="@+id/fotoM1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="10dp"
+            android:layout_below="@+id/rela"
+            android:src="@drawable/baksokon"/>
+
+        <TextView
+            android:id="@+id/textM1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="BAKSO ACI"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_below="@+id/rela"
+            android:layout_toEndOf="@+id/fotoM"/>
+
+        <TextView
+            android:id="@+id/textK1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20K"
+            android:layout_toEndOf="@+id/fotoM1"
+            android:layout_below="@+id/textM1"/>
+
+        <ImageView
+            android:id="@+id/titik31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_more_horiz_24"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/rela"
+            android:paddingTop="25dp"/>
+
+    <RelativeLayout
+            android:id="@+id/rela2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="100dp"
+            android:layout_below="@+id/rela1"/>
+
+        <ImageView
+            android:id="@+id/fotoM2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="10dp"
+            android:layout_below="@+id/rela1"
+            android:src="@drawable/nasgor"/>
+
+        <TextView
+            android:id="@+id/textM2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="NASI GORENG"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_below="@+id/rela1"
+            android:layout_toEndOf="@+id/fotoM"/>
+
+        <TextView
+            android:id="@+id/textK2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15K"
+            android:layout_toEndOf="@+id/fotoM2"
+            android:layout_below="@+id/textM2"/>
+
+        <ImageView
+            android:id="@+id/titik32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_more_horiz_24"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/rela1"
+            android:paddingTop="25dp"/>
+
+    </RelativeLayout>
+
+
